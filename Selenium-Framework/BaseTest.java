@@ -25,7 +25,7 @@ public class BaseTest {
         d.get("https://www.amazon.in/");
       
         extent = new ExtentReports();
-        spark = new ExtentSparkReporter("Extentreport2.html");
+        spark = new ExtentSparkReporter("ExtentReport.html");
         extent.attachReporter(spark);
         
     }
